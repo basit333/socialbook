@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile - Socialbook</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e00d547981.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <img src="img/logo.png" class="logo" />
+        <ul>
+          <li><img src="img/notification.png" /></li>
+          <li><img src="img/inbox.png" /></li>
+          <li><img src="img/video.png" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="img/search.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="img/profile-pic.png" />
+        </div>
+      </div>
+      <!-- settings-menu -->
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="img/profile-pic.png" />
+            <div>
+              <p>John</p>
+              <a href="#">See Your Profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="img/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help Us To Improve The New Design</a>
+            </div>
+          </div>
+          <hr />
+          <div class="settings-links">
+            <img src="img/setting.png" class="settings-icon" />
+            <a href="#"
+              >Settings & Privacy <img src="img/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="img/help.png" class="settings-icon" />
+            <a href="#"
+              >Help & Support <img src="img/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="img/display.png" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibility <img src="img/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="img/logout.png" class="settings-icon" />
+            <a href="#">Logout <img src="img/arrow.png" width="10px" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Profile Page -->
+    <div class="profile-container">
+        <img src="img/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="img/profile.png" class="pd-image">
+                    <div>
+                        <h3>Jack Nicholson</h3>
+                        <p>120 Friends - 20 mutual</p>
+                        <img src="img/member-1.png">
+                        <img src="img/member-2.png">
+                        <img src="img/member-3.png">
+                        <img src="img/member-4.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+              <button type="button"><img src="img/add-friends.png">Friend</button>
+              <button type="button"><img src="img/message.png">Message</button>
+              <br>
+              <a href="#"><img src="img/more.png"></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+          <div class="info-col">
+            <div class="profile-intro">
+              <h3>Intro</h3>
+              <p class="intro-text">Believe in your self and you can do unbelievable things. <img src="img/feeling.png"></p>
+              <hr>
+              <ul>
+                <li><img src="img/profile-job.png"> Director at 99media Ltd</li>
+                <li><img src="img/profile-study.png"> Studied at GPGCM</li>
+                <li><img src="img/profile-study.png"> Went to SZABIST Islamabad</li>
+                <li><img src="img/profile-home.png"> Lives in Islamabad</li>
+                <li><img src="img/profile-location.png"> From Mardan, Pakistan</li>
+              </ul>
+            
+            </div>
+            <div class="profile-intro">
+              <div class="title-box">
+                <h3>Photos</h3>
+                <a href="">All Photos</a>  
+              </div>
+      
+              <div class="photo-box">
+                <div><img src="img/photo1.png"></div>
+                <div><img src="img/photo2.png"></div>
+                <div><img src="img/photo3.png"></div>
+                <div><img src="img/photo4.png"></div>
+                <div><img src="img/photo5.png"></div>
+                <div><img src="img/photo6.png"></div>
+              </div>
+            </div>
+
+            <div class="profile-intro">
+              <div class="title-box">
+                <h3>Friends</h3>
+                <a href="">All Friends</a>  
+              </div>
+              <p>120 (10 mutual)</p>
+              <div class="photo-box">
+                <div><img src="img/member-1.png"><p>Joseph N</p></div>
+                <div><img src="img/member-2.png"><p>Nathan N</p></div>
+                <div><img src="img/member-3.png"><p>George D</p></div>
+                <div><img src="img/member-4.png"><p>Francis L</p></div>
+                <div><img src="img/member-5.png"><p>Anthony E</p></div>
+                <div><img src="img/member-6.png"><p>Michael E</p></div>
+                <div><img src="img/member-7.png"><p>Edward M</p></div>
+                <div><img src="img/member-8.png"><p>Bradon C</p></div>
+                <div><img src="img/member-9.png"><p>James C</p></div>
+                
+              </div>
+            </div>
+
+          </div>
+          <div class="post-col">
+            <div class="write-post-container">
+              <div class="user-profile">
+                <img src="img/profile-pic.png" />
+                <div>
+                  <p>John</p>
+                  <small>Public <i class="fas fa-caret-down"></i></small>
+                </div>
+              </div>
+              <div class="post-input-container">
+                <textarea
+                  rows="3"
+                  placeholder="What's on your mind, John?"
+                ></textarea>
+                <div class="add-post-links">
+                  <a href="#"><img src="img/live-video.png" />Live Video</a>
+                  <a href="#"><img src="img/photo.png" />Photo/Video</a>
+                  <a href="#"><img src="img/feeling.png" />Feeling/Activity</a>
+                </div>
+              </div>
+            </div>
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="img/profile-pic.png" />
+                  <div>
+                    <p>John</p>
+                    <span>August 30 2021, 11:00 am</span>
+                  </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+              </div>
+              <p class="post-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem hic
+                necessitatibus quaerat reprehenderit sapiente.
+              </p>
+              <img src="img/feed-image-1.png" class="post-img" />
+    
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div><img src="img/like-blue.png" />120</div>
+                  <div><img src="img/comments.png" />66</div>
+                  <div><img src="img/share.png" />45</div>
+                </div>
+                <div class="post-profile-icons">
+                  <img src="img/profile-pic.png" />
+                  <i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+            </div>
+    
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="img/profile-pic.png" />
+                  <div>
+                    <p>John</p>
+                    <span>August 30 2021, 05:00 pm</span>
+                  </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+              </div>
+              <p class="post-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem hic
+                necessitatibus quaerat reprehenderit sapiente.
+              </p>
+              <img src="img/feed-image-2.png" class="post-img" />
+    
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div><img src="img/like.png" />90</div>
+                  <div><img src="img/comments.png" />86</div>
+                  <div><img src="img/share.png" />15</div>
+                </div>
+                <div class="post-profile-icons">
+                  <img src="img/profile-pic.png" />
+                  <i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+            </div>
+    
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="img/profile-pic.png" />
+                  <div>
+                    <p>John</p>
+                    <span>August 30 2021, 1:00 pm</span>
+                  </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+              </div>
+              <p class="post-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem hic
+                necessitatibus quaerat reprehenderit sapiente.
+              </p>
+              <img src="img/feed-image-3.png" class="post-img" />
+    
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div><img src="img/like.png" />80</div>
+                  <div><img src="img/comments.png" />16</div>
+                  <div><img src="img/share.png" />6</div>
+                </div>
+                <div class="post-profile-icons">
+                  <img src="img/profile-pic.png" />
+                  <i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+            </div>
+    
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="img/profile-pic.png" />
+                  <div>
+                    <p>John</p>
+                    <span>August 30 2021, 11:00 am</span>
+                  </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+              </div>
+              <p class="post-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem hic
+                necessitatibus quaerat reprehenderit sapiente.
+              </p>
+              <img src="img/feed-image-4.png" class="post-img" />
+    
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div><img src="img/like.png" />70</div>
+                  <div><img src="img/comments.png" />46</div>
+                  <div><img src="img/share.png" />4</div>
+                </div>
+                <div class="post-profile-icons">
+                  <img src="img/profile-pic.png" />
+                  <i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+            </div>
+    
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="img/profile-pic.png" />
+                  <div>
+                    <p>John</p>
+                    <span>August 30 2021, 11:00 am</span>
+                  </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+              </div>
+              <p class="post-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem hic
+                necessitatibus quaerat reprehenderit sapiente.
+              </p>
+              <img src="img/feed-image-5.png" class="post-img" />
+    
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div><img src="img/like.png" />120</div>
+                  <div><img src="img/comments.png" />66</div>
+                  <div><img src="img/share.png" />45</div>
+                </div>
+                <div class="post-profile-icons">
+                  <img src="img/profile-pic.png" />
+                  <i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+      <p>Copyright 2021 - Socialbook</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
